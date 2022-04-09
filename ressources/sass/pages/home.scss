@@ -10,6 +10,7 @@
         margin-right: auto;
         width: 65%;
         text-align: center;
+        font-family: Roboto;
         font-weight: bold;
         line-height: 1.2;
         font-size: 25px;
@@ -21,6 +22,7 @@
         margin-right: auto;
         width: 90%;
         text-align: center;
+        font-family: Roboto;
         line-height: 1.2;
         font-size: 19px;
         opacity: 0.7;
@@ -40,6 +42,7 @@
         border: none;
         border-radius: 30px;
         background: linear-gradient(170deg, $secondary-color, $primary-color);
+        font-family: Roboto;
         font-size: 18px;
         font-weight: 500;
         filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
@@ -73,6 +76,7 @@
   .operation {
     margin-top: 50px;
     &-title {
+      font-family: Roboto;
       font-size: 26px;
       font-weight: bold;
       margin-left: 30px;
@@ -89,6 +93,7 @@
         border: none;
         border-radius: 25px;
         margin-bottom: 30px;
+        transition: all 0.3s ease-in-out;
         .fa-layers {
           display: inline-block;
           margin-left: -25px;
@@ -99,9 +104,10 @@
             font-size: 30px;
           }
           .fa-layers-text {
+            font-family: Roboto;
             position: absolute;
             color: white;
-            margin-top: 2px;
+            margin-top: 4px;
             margin-left: 10px;
             font-size: 18px;
           }
@@ -114,13 +120,22 @@
             font-size: 24px;
             margin-left: 45px;
             margin-top: 32px;
+            transition: all 0.3s ease-in-out;
           }
           &-text {
             position: absolute;
-            font-size: 18px;
+            font-family: Roboto;
+            font-size: 20px;
             font-weight: bold;
             margin-left: 85px;
-            margin-top: 5px;
+            margin-top: 7px;
+          }
+        }
+        &:hover {
+          background-color: $primary-color-light;
+          .fas {
+            opacity: 1;
+            color: $primary-color;
           }
         }
       }
@@ -133,6 +148,7 @@
         border: none;
         border-radius: 25px;
         margin-bottom: 30px;
+        transition: all 0.3s ease-in-out;
         .fa-layers {
           display: inline-block;
           margin-left: -25px;
@@ -145,8 +161,9 @@
           .fa-layers-text {
             position: absolute;
             color: white;
-            margin-top: 2px;
+            margin-top: 4px;
             margin-left: 10px;
+            font-family: Roboto;
             font-size: 18px;
           }
         }
@@ -158,13 +175,22 @@
             font-size: 24px;
             margin-left: 45px;
             margin-top: 32px;
+            transition: all 0.3s ease-in-out;
           }
           &-text {
             position: absolute;
-            font-size: 18px;
+            font-family: Roboto;
+            font-size: 20px;
             font-weight: bold;
             margin-left: 85px;
-            margin-top: 5px;
+            margin-top: 7px;
+          }
+        }
+        &:hover {
+          background-color: $primary-color-light;
+          .fas {
+            opacity: 1;
+            color: $primary-color;
           }
         }
       }
@@ -172,11 +198,12 @@
         display: block;
         width: 95%;
         height: 85px;
-        background-color: $primary-color-light;
+        background-color: $gray-light;
         filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
         border: none;
         border-radius: 25px;
         margin-bottom: 30px;
+        transition: all 0.3s ease-in-out;
         .fa-layers {
           display: inline-block;
           margin-left: -25px;
@@ -188,8 +215,9 @@
           }
           .fa-layers-text {
             position: absolute;
+            font-family: Roboto;
             color: white;
-            margin-top: 2px;
+            margin-top: 4px;
             margin-left: 10px;
             font-size: 18px;
           }
@@ -197,18 +225,27 @@
         &-third {
           display: inline;
           .fas {
+            opacity: 0.7;
             position: absolute;
-            color: $primary-color;
             font-size: 24px;
             margin-left: 45px;
             margin-top: 32px;
+            transition: all 0.3s ease-in-out;
           }
           &-text {
             position: absolute;
-            font-size: 18px;
+            font-family: Roboto;
+            font-size: 20px;
             font-weight: bold;
             margin-left: 85px;
-            margin-top: 5px;
+            margin-top: 7px;
+          }
+        }
+        &:hover {
+          background-color: $primary-color-light;
+          .fas {
+            opacity: 1;
+            color: $primary-color;
           }
         }
       }
@@ -220,6 +257,7 @@
     padding-bottom: 100px;
     background-color: $gray-light;
     &-title {
+      font-family: Roboto;
       font-size: 26px;
       font-weight: bold;
       padding-top: 65px;
@@ -276,11 +314,13 @@
           border-radius: 20px 20px 0 0;
         }
         h3 {
+          font-family: Roboto;
           margin-top: 10px;
           margin-left: 10px;
           font-size: 18px;
         }
         p {
+          font-family: Roboto;
           margin-top: -20px;
           margin-left: 10px;
           font-size: 17px;
@@ -357,11 +397,13 @@
           border-radius: 20px 20px 0 0;
         }
         h3 {
+          font-family: Roboto;
           margin-top: 10px;
           margin-left: 10px;
           font-size: 18px;
         }
         p {
+          font-family: Roboto;
           margin-top: -20px;
           margin-left: 10px;
           font-size: 17px;
@@ -416,11 +458,13 @@
           border-radius: 20px 20px 0 0;
         }
         h3 {
+          font-family: Roboto;
           margin-top: 10px;
           margin-left: 10px;
           font-size: 18px;
         }
         p {
+          font-family: Roboto;
           margin-top: -20px;
           margin-left: 10px;
           font-size: 17px;
@@ -475,11 +519,13 @@
           border-radius: 20px 20px 0 0;
         }
         h3 {
+          font-family: Roboto;
           margin-top: 10px;
           margin-left: 10px;
           font-size: 18px;
         }
         p {
+          font-family: Roboto;
           margin-top: -20px;
           margin-left: 10px;
           font-size: 17px;

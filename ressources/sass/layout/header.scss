@@ -26,8 +26,16 @@ body {
     &-text {
       display: inline;
       opacity: 0.7;
+      font-family: Roboto;
       font-weight: 700;
       font-size: 20px;
+    }
+  }
+  &-bg {
+    &-img {
+      width: 100%;
+      left: 0;
+      z-index: -1;
     }
   }
 }

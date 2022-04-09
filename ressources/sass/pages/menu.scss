@@ -1,0 +1,130 @@
+.menu {
+  background-color: $gray-light;
+  &-title {
+    &-text {
+      font-family: Shrikhand;
+    }
+    &-heart {
+      position: absolute;
+      margin-right: 60px;
+      margin-top: -60px;
+      z-index: 2;
+      right: 0;
+      text-decoration: none;
+      color: black;
+      .far {
+        position: absolute;
+        font-size: 30px;
+        font-weight: 100;
+        &:hover {
+          animation: fill 1s ease-out;
+          font-weight: bold;
+          background: linear-gradient($secondary-color, $primary-color);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+  &-starter {
+    &-title {
+      font-family: Roboto;
+    }
+    &-content {
+      &-item {
+        &-title {
+          font-family: Roboto;
+        }
+        &-text {
+          font-family: Roboto;
+        }
+        &-price {
+          font-family: Roboto;
+        }
+      }
+    }
+  }
+  &-dishes {
+    &-title {
+      font-family: Roboto;
+    }
+    &-content {
+      &-item {
+        &-title {
+          font-family: Roboto;
+        }
+        &-text {
+          font-family: Roboto;
+        }
+        &-price {
+          font-family: Roboto;
+        }
+      }
+    }
+  }
+  &-desserts {
+    &-title {
+      font-family: Roboto;
+    }
+    &-content {
+      &-item {
+        &-title {
+          font-family: Roboto;
+        }
+        &-text {
+          font-family: Roboto;
+        }
+        &-price {
+          font-family: Roboto;
+        }
+      }
+    }
+  }
+  &-order {
+    display: block;
+    width: 240px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    &-btn {
+      position: relative;
+      z-index: 1;
+      height: 70px;
+      width: 240px;
+      color: white;
+      border: none;
+      border-radius: 35px;
+      background: linear-gradient(170deg, $secondary-color, $primary-color);
+      font-family: Roboto;
+      font-size: 23px;
+      font-weight: 500;
+      filter: drop-shadow(1px 3px 5px rgb(184, 184, 184));
+      transition: transform 1s;
+    }
+    &-btn:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      background: linear-gradient(100deg, $secondary-color, $primary-color);
+      border: none;
+      border-radius: 35px;
+      transition: 0.3s linear;
+      opacity: 0;
+    }
+    &-btn:hover:before {
+      opacity: 1;
+      filter: brightness(1.08);
+    }
+    &-btn:active {
+      transition: 0s linear;
+      transform: translateY(2px);
+      filter: drop-shadow(1px 3px 10px rgb(160, 160, 160));
+    }
+  }
+}
