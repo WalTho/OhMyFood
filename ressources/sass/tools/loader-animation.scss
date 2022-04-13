@@ -1,7 +1,7 @@
 @mixin animate-svg {
   filter: drop-shadow(1px 3px 2px rgb(0 0 0 / 0.5));
   fill: url(#gradient);
-  animation: load 2.5s 0s ease-in alternate infinite;
+  animation: load 1.5s 0s ease-in alternate infinite;
 }
 
 @mixin loading-circle {
