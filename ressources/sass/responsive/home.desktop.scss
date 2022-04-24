@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1079px) {
+@media only screen and (min-width: 1079px) {
 	.home {
 		.about {
 			padding-top: 50px;
@@ -76,6 +76,9 @@
 		}
 		.operation {
 			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
 			&-title {
 				font-family: Roboto;
 				font-size: 26px;
@@ -259,16 +262,19 @@
 			background-color: $gray-light;
 			&-title {
 				font-family: Roboto;
-				font-size: 26px;
+				font-size: 32px;
 				font-weight: bold;
 				padding-top: 65px;
-				margin-bottom: 20px;
-				margin-left: 30px;
+				margin-bottom: 50px;
+				text-align: center;
 			}
 			&-container {
+				margin-left: auto;
+				margin-right: auto;
+				width: 60%;
 				display: block;
 				&-block1 {
-					width: 95%;
+					width: 80%;
 					margin-left: auto;
 					margin-right: auto;
 					background-color: white;
@@ -311,7 +317,7 @@
 					img {
 						object-fit: cover;
 						width: 100%;
-						height: 40vw;
+						height: 20vw;
 						;
 						border-radius: 20px 20px 0 0;
 					}
@@ -351,10 +357,10 @@
 					}
 				}
 				&-block2 {
-					width: 95%;
-					margin-top: 25px;
+					width: 80%;
 					margin-left: auto;
 					margin-right: auto;
+					margin-top: 50px;
 					background-color: white;
 					filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
 					height: auto;
@@ -395,7 +401,8 @@
 					img {
 						object-fit: cover;
 						width: 100%;
-						height: 40vw;
+						height: 20vw;
+						;
 						border-radius: 20px 20px 0 0;
 					}
 					h3 {
@@ -434,17 +441,16 @@
 					}
 				}
 				&-block3 {
-					width: 95%;
-					margin-top: 25px;
+					width: 80%;
 					margin-left: auto;
 					margin-right: auto;
+					margin-top: 50px;
 					background-color: white;
 					filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
 					height: auto;
 					border: none;
 					border-radius: 20px;
 					padding-bottom: 2px;
-					margin-top: 25px;
 					.fill-div {
 						display: block;
 						position: absolute;
@@ -453,10 +459,34 @@
 						width: 100%;
 						text-decoration: none;
 					}
+					&-new {
+						position: absolute;
+						margin-right: 20px;
+						right: 0;
+						width: 90px;
+						height: 20px;
+						padding-top: 2px;
+						padding-bottom: 8px;
+						margin-top: 20px;
+						text-align: center;
+						border: none;
+						border-radius: 3px;
+						background-color: $ternary-color;
+						filter: brightness(1.1);
+						span {
+							position: absolute;
+							margin-top: 4px;
+							margin-left: -30px;
+							font-size: 14px;
+							color: $ternary-color;
+							filter: brightness(0.6);
+						}
+					}
 					img {
 						object-fit: cover;
 						width: 100%;
-						height: 40vw;
+						height: 20vw;
+						;
 						border-radius: 20px 20px 0 0;
 					}
 					h3 {
@@ -495,17 +525,16 @@
 					}
 				}
 				&-block4 {
-					width: 95%;
-					margin-top: 25px;
+					width: 80%;
 					margin-left: auto;
 					margin-right: auto;
+					margin-top: 50px;
 					background-color: white;
 					filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
 					height: auto;
 					border: none;
 					border-radius: 20px;
 					padding-bottom: 2px;
-					margin-top: 25px;
 					.fill-div {
 						display: block;
 						position: absolute;
@@ -514,10 +543,34 @@
 						width: 100%;
 						text-decoration: none;
 					}
+					&-new {
+						position: absolute;
+						margin-right: 20px;
+						right: 0;
+						width: 90px;
+						height: 20px;
+						padding-top: 2px;
+						padding-bottom: 8px;
+						margin-top: 20px;
+						text-align: center;
+						border: none;
+						border-radius: 3px;
+						background-color: $ternary-color;
+						filter: brightness(1.1);
+						span {
+							position: absolute;
+							margin-top: 4px;
+							margin-left: -30px;
+							font-size: 14px;
+							color: $ternary-color;
+							filter: brightness(0.6);
+						}
+					}
 					img {
 						object-fit: cover;
 						width: 100%;
-						height: 40vw;
+						height: 20vw;
+						;
 						border-radius: 20px 20px 0 0;
 					}
 					h3 {
