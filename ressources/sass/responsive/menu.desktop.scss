@@ -1,0 +1,394 @@
+@media only screen and (min-width: 1079px) {
+	.menu {
+		margin-top: 20vw;
+		padding-top: 10px;
+		padding-bottom: 1px;
+		border-radius: 40px 40px 0 0;
+		background-color: $gray-light;
+		&-title {
+			width: 40%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 50px;
+			&-text {
+				margin-left: 15px;
+				font-family: Shrikhand;
+				font-weight: 500;
+			}
+			&-heart {
+				position: absolute;
+				margin-right: 30%;
+				margin-top: -60px;
+				z-index: 2;
+				right: 0;
+				text-decoration: none;
+				color: black;
+				.far {
+					position: absolute;
+					font-size: 30px;
+					font-weight: 100;
+					&:hover {
+						animation: fill 1s ease-out;
+						font-weight: bold;
+						background: linear-gradient($secondary-color, $primary-color);
+						background-clip: text;
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+					}
+				}
+			}
+		}
+		&-starter {
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			&-title{
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				&-text {
+					margin-top: 30px;
+					margin-left: 15px;
+					font-family: Roboto;
+					font-weight: 100;
+					font-size: 20px;
+					filter: opacity(0.8);
+				}
+				&-bg{
+					margin-top: -12px;
+					margin-left: 13px;
+					width: 50px;
+					height: 3.5px;
+					background-color: $ternary-color;
+				}
+			}
+			&-content {
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				&-item {
+					overflow: hidden;
+					transition: padding-right 0.5s ease-in-out;
+					.fill-div {
+						display: block;
+						position: absolute;
+						z-index: 1;
+						height: 100%;
+						width: 100%;
+						text-decoration: none;
+					}
+					width: 95%;
+					margin-left: auto;
+					margin-right: auto;
+					background-color: white;
+					filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
+					height: 75px;
+					border: none;
+					border-radius: 15px;
+					margin-top: 25px;
+					line-height: 0.4;
+					&-title {
+						font-family: Roboto;
+						font-size: 20px;
+						margin-left: 10px;
+					}
+					&-text {
+						display: inline;
+						font-family: Roboto;
+						font-size: 17px;
+						margin-left: 10px;
+					}
+					&-price {
+						display: inline;
+						position: absolute;
+						right: 25px;
+						bottom: 2px;
+						font-family: Roboto;
+						font-weight: bold;
+						transition: all 0.3s ease-out;
+					}
+					.check{
+						display: flex;
+						justify-content: center;
+						background-color: $ternary-color;
+						height: 100%;
+						position: absolute;
+						padding-left: 20px;
+						padding-right: 20px;
+						top: 0;
+						right: -50px;
+						align-items: center;
+						opacity: 0;
+						transition: transform 0.3s ease-in-out;
+						& .fa-check-circle {
+							color: white;
+							font-size: 25px;
+							transition: transform 0.5s ease-in-out;
+						}
+					}
+					&:hover .check {
+						opacity: 1;
+						transform: translate(-50px);
+					}
+					&:hover .fa-check-circle {
+						transform: rotate(360deg) ;
+					}
+					&:hover &-price {
+						right: 5px;
+						padding-right: 75px ;
+					}
+				}
+			}
+		}
+		&-dishes {
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			&-title{
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				&-text {
+					margin-top: 50px;
+					margin-left: 15px;
+					font-family: Roboto;
+					font-weight: 100;
+					font-size: 20px;
+					filter: opacity(0.8);
+				}
+				&-bg{
+					margin-top: -12px;
+					margin-left: 13px;
+					width: 50px;
+					height: 3.5px;
+					background-color: $ternary-color;
+				}
+			}
+			&-content {
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				&-item {
+					overflow: hidden;
+					transition: padding-right 0.5s ease-in-out;
+					.fill-div {
+						display: block;
+						position: absolute;
+						z-index: 1;
+						height: 100%;
+						width: 100%;
+						text-decoration: none;
+					}
+					width: 95%;
+					margin-left: auto;
+					margin-right: auto;
+					background-color: white;
+					filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
+					height: 75px;
+					border: none;
+					border-radius: 15px;
+					margin-top: 25px;
+					line-height: 0.4;
+					&-title {
+						font-family: Roboto;
+						font-size: 20px;
+						margin-left: 10px;
+					}
+					&-text {
+						display: inline;
+						font-family: Roboto;
+						font-size: 17px;
+						margin-left: 10px;
+					}
+					&-price {
+						display: inline;
+						position: absolute;
+						right: 25px;
+						bottom: 2px;
+						font-family: Roboto;
+						font-weight: bold;
+						transition: all 0.3s ease-out;
+					}
+					.check{
+						display: flex;
+						justify-content: center;
+						background-color: $ternary-color;
+						height: 100%;
+						position: absolute;
+						padding-left: 20px;
+						padding-right: 20px;
+						top: 0;
+						right: -50px;
+						align-items: center;
+						opacity: 0;
+						transition: transform 0.3s ease-in-out;
+						& .fa-check-circle {
+							color: white;
+							font-size: 25px;
+							transition: transform 0.5s ease-in-out;
+						}
+					}
+					&:hover .check {
+						opacity: 1;
+						transform: translate(-50px);
+					}
+					&:hover .fa-check-circle {
+						transform: rotate(360deg) ;
+					}
+					&:hover &-price {
+						right: 5px;
+						padding-right: 75px ;
+					}
+				}
+			}
+		}
+		&-desserts {
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			&-title{
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				&-text {
+					margin-top: 50px;
+					margin-left: 15px;
+					font-family: Roboto;
+					font-weight: 100;
+					font-size: 20px;
+					filter: opacity(0.8);
+				}
+				&-bg{
+					margin-top: -12px;
+					margin-left: 13px;
+					width: 50px;
+					height: 3.5px;
+					background-color: $ternary-color;
+				}
+			}
+			&-content {
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				&-item {
+					overflow: hidden;
+					transition: padding-right 0.5s ease-in-out;
+					.fill-div {
+						display: block;
+						position: absolute;
+						z-index: 1;
+						height: 100%;
+						width: 100%;
+						text-decoration: none;
+					}
+					width: 95%;
+					margin-left: auto;
+					margin-right: auto;
+					background-color: white;
+					filter: drop-shadow(1px 3px 5px rgb(201, 201, 201));
+					height: 75px;
+					border: none;
+					border-radius: 15px;
+					margin-top: 25px;
+					line-height: 0.4;
+					&-title {
+						font-family: Roboto;
+						font-size: 20px;
+						margin-left: 10px;
+					}
+					&-text {
+						display: inline;
+						font-family: Roboto;
+						font-size: 17px;
+						margin-left: 10px;
+					}
+					&-price {
+						display: inline;
+						position: absolute;
+						right: 25px;
+						bottom: 2px;
+						font-family: Roboto;
+						font-weight: bold;
+						transition: all 0.3s ease-out;
+					}
+					.check{
+						display: flex;
+						justify-content: center;
+						background-color: $ternary-color;
+						height: 100%;
+						position: absolute;
+						padding-left: 20px;
+						padding-right: 20px;
+						top: 0;
+						right: -50px;
+						align-items: center;
+						opacity: 0;
+						transition: transform 0.3s ease-in-out;
+						& .fa-check-circle {
+							color: white;
+							font-size: 25px;
+							transition: transform 0.5s ease-in-out;
+						}
+					}
+					&:hover .check {
+						opacity: 1;
+						transform: translate(-50px);
+					}
+					&:hover .fa-check-circle {
+						transform: rotate(360deg) ;
+					}
+					&:hover &-price {
+						right: 5px;
+						padding-right: 75px ;
+					}
+				}
+			}
+		}
+		&-order {
+			display: block;
+			width: 240px;
+			margin-bottom: 80px;
+			margin-left: auto;
+			margin-right: auto;
+			&-btn {
+				margin-top: 25%;
+				position: relative;
+				z-index: 1;
+				height: 60px;
+				width: 220px;
+				color: white;
+				border: none;
+				border-radius: 35px;
+				background: linear-gradient(170deg, $secondary-color, $primary-color);
+				font-family: Roboto;
+				font-size: 23px;
+				font-weight: 500;
+				filter: drop-shadow(1px 3px 5px rgb(184, 184, 184));
+				transition: transform 1s;
+				&:before {
+					position: absolute;
+					content: "";
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					z-index: -1;
+					background: linear-gradient(100deg, $secondary-color, $primary-color);
+					border: none;
+					border-radius: 35px;
+					transition: 0.3s linear;
+					opacity: 0;
+				}
+				&:hover:before {
+					opacity: 1;
+					filter: brightness(1.08);
+				}
+				&:active {
+					transition: 0s linear;
+					transform: translateY(2px);
+					filter: drop-shadow(1px 3px 10px rgb(160, 160, 160));
+				}
+			}
+		}
+	}
+}
