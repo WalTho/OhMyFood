@@ -1,5 +1,5 @@
 @mixin starter-animation {
-	animation: starter-load 1s 2.5s linear;
+	animation: starter-load 1.5s 2.4s linear;
 	animation-fill-mode: forwards;
 	@keyframes starter-load {
 		0% {
@@ -21,7 +21,7 @@
 	}
 }
 @mixin dishes-animation {
-	animation: dishes-load 1s 2.5s linear;
+	animation: dishes-load 1.5s 2.4s linear;
 	animation-fill-mode: forwards;
 	@keyframes dishes-load {
 		0% {
@@ -43,7 +43,7 @@
 	}
 }
 @mixin dessert-animation {
-	animation: dessert-load 1s 2.5s linear;
+	animation: dessert-load 1.5s 2.4s linear;
 	animation-fill-mode: forwards;
 	@keyframes dessert-load {
 		0% {
