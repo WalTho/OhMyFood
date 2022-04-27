@@ -20,7 +20,7 @@ Le concept permet aux utilisateurs de composer leur menu en avance parmi 4 resta
 
 <br/>
 
-> - Effectuer la réalisation de la page d'accueil et des 4 pages des restaurants proposés.
+> - Effectuer la réalisation de la page d'accueil et les 4 pages des restaurants proposés.
 
 <br/>
 
@@ -30,7 +30,7 @@ Le concept permet aux utilisateurs de composer leur menu en avance parmi 4 resta
 
 > #### Boutons :
 >
-> - Au survol, la couleur de fond des boutons >principaux devra légèrement s’éclaircir.
+> - Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir.
 >   L’ombre portée devra également être plus visible.
 >
 > - À terme, les visiteurs pourront sauvegarder leurs menus préférés, un bouton "J’aime" en forme de cœur est prévu à cet effet.
