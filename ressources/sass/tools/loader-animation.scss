@@ -1,40 +1,40 @@
 @mixin animate-svg {
-	filter: drop-shadow(1px 3px 2px rgb(0 0 0 / 0.5));
-	fill: url(#gradient);
-	animation: load 1.5s 0s ease-in alternate infinite;
+    filter: drop-shadow(1px 3px 2px rgb(0 0 0 / 0.5));
+    fill: url(#gradient);
+    animation: load 1.5s 0s ease-in alternate infinite;
 }
 @mixin loading-circle {
-	transition: all ease-in;
-	animation-name: rotate;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+    transition: all ease-in;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes load {
-	90% {
-		transform: scale(1);
-		filter: drop-shadow(1px 3px 2px rgb(0 0 0 / 0.5));
-	}
-	100% {
-		transform: scale(1.03);
-		filter: drop-shadow(2px 5px 3px rgb(0 0 0 / 0.3));
-	}
+    90% {
+        transform: scale(1);
+        filter: drop-shadow(1px 3px 2px rgb(0 0 0 / 0.5));
+    }
+    100% {
+        transform: scale(1.03);
+        filter: drop-shadow(2px 5px 3px rgb(0 0 0 / 0.3));
+    }
 }
 @keyframes rotate {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 @keyframes loaded {
-	50% {
-		z-index: 9999;
-		opacity: 100%;
-	}
-	100% {
-		z-index: -1;
-		opacity: 0%;
-	}
+    50% {
+        z-index: 9999;
+        opacity: 100%;
+    }
+    100% {
+        z-index: -1;
+        opacity: 0%;
+    }
 }

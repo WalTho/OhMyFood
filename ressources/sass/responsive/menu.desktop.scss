@@ -71,26 +71,7 @@
 				width: 60%;
 				margin-left: auto;
 				margin-right: auto;
-				animation: starter-load 1s 2.5s linear;
-				animation-fill-mode: forwards;
-				@keyframes starter-load {
-					0% {
-						opacity: 0;
-						transform: translateX(-50px);
-					}
-					25% {
-						opacity: 1;
-						transform: translateX(0px);
-					}
-					50%{
-						opacity: 1;
-						transform: translateX(0px);
-					}
-					100% {
-						opacity: 1;
-						transform: translateX(0px);
-					}
-				}
+				@include starter-animation;
 				&-item {
 					overflow: hidden;
 					transition: padding-right 0.5s ease-in-out;
@@ -193,26 +174,7 @@
 				width: 60%;
 				margin-left: auto;
 				margin-right: auto;
-				animation: dishes-load 1s 2.5s linear;
-				animation-fill-mode: forwards;
-				@keyframes dishes-load {
-					0% {
-						opacity: 0;
-						transform: translateX(-50px);
-					}
-					25% {
-						opacity: 0;
-						transform: translateX(-50px);
-					}
-					50%{
-						opacity: 1;
-						transform: translateX(0px);
-					}
-					100% {
-						opacity: 1;
-						transform: translateX(0px);
-					}
-				}
+				@include dishes-animation;
 				&-item {
 					overflow: hidden;
 					transition: padding-right 0.5s ease-in-out;
@@ -315,26 +277,7 @@
 				width: 60%;
 				margin-left: auto;
 				margin-right: auto;
-				animation: dessert-load 1s 2.5s linear;
-				animation-fill-mode: forwards;
-				@keyframes dessert-load {
-					0% {
-						opacity: 0;
-						transform: translateX(-50px);
-					}
-					25% {
-						opacity: 0;
-						transform: translateX(-50px);
-					}
-					50%{
-						opacity: 0;
-						transform: translateX(-50px);
-					}
-					100% {
-						opacity: 1;
-						transform: translateX(0px);
-					}
-				}
+				@include dessert-animation;
 				&-item {
 					overflow: hidden;
 					transition: padding-right 0.5s ease-in-out;
