@@ -17,23 +17,28 @@
 			}
 			&-heart {
 				position: absolute;
-				margin-right: 30%;
+				margin-right: 60px;
 				margin-top: -60px;
 				z-index: 2;
 				right: 0;
 				text-decoration: none;
 				color: black;
-				.far {
+				#heart-visible-menu{
 					position: absolute;
 					font-size: 30px;
-					font-weight: 100;
-					&:hover {
-						animation: fill 1s ease-out;
-						font-weight: bold;
-						background: linear-gradient($secondary-color, $primary-color);
-						background-clip: text;
-						-webkit-background-clip: text;
-						-webkit-text-fill-color: transparent;
+				}
+				#heart-animate-menu{
+					opacity: 0;
+					position: absolute;
+					font-size: 30px;
+					font-weight: bold;
+					background: linear-gradient($secondary-color, $primary-color);
+					background-clip: text;
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					transition: opacity 0.3s ease-in-out;
+					&:hover{
+						opacity: 1;
 					}
 				}
 			}

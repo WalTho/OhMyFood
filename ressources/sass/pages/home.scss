@@ -335,17 +335,22 @@
 						right: 0;
 						text-decoration: none;
 						color: black;
-						.far {
+						#heart-visible-1{
 							position: absolute;
 							font-size: 30px;
-							font-weight: 100;
-							&:hover {
-								animation: fill 1s ease-out;
-								font-weight: bold;
-								background: linear-gradient($secondary-color, $primary-color);
-								background-clip: text;
-								-webkit-background-clip: text;
-								-webkit-text-fill-color: transparent;
+						}
+						#heart-animate-1{
+							opacity: 0;
+							position: absolute;
+							font-size: 30px;
+							font-weight: bold;
+							background: linear-gradient($secondary-color, $primary-color);
+							background-clip: text;
+							-webkit-background-clip: text;
+							-webkit-text-fill-color: transparent;
+							transition: opacity 0.3s ease-in-out;
+							&:hover{
+								opacity: 1;
 							}
 						}
 					}
@@ -418,17 +423,22 @@
 						right: 0;
 						text-decoration: none;
 						color: black;
-						.far {
+						#heart-visible-2{
 							position: absolute;
 							font-size: 30px;
-							font-weight: 100;
-							&:hover {
-								animation: fill 1s ease-out;
-								font-weight: bold;
-								background: linear-gradient($secondary-color, $primary-color);
-								background-clip: text;
-								-webkit-background-clip: text;
-								-webkit-text-fill-color: transparent;
+						}
+						#heart-animate-2{
+							opacity: 0;
+							position: absolute;
+							font-size: 30px;
+							font-weight: bold;
+							background: linear-gradient($secondary-color, $primary-color);
+							background-clip: text;
+							-webkit-background-clip: text;
+							-webkit-text-fill-color: transparent;
+							transition: opacity 0.3s ease-in-out;
+							&:hover{
+								opacity: 1;
 							}
 						}
 					}
@@ -479,17 +489,22 @@
 						right: 0;
 						text-decoration: none;
 						color: black;
-						.far {
+						#heart-visible-3{
 							position: absolute;
 							font-size: 30px;
-							font-weight: 100;
-							&:hover {
-								animation: fill 1s ease-out;
-								font-weight: bold;
-								background: linear-gradient($secondary-color, $primary-color);
-								background-clip: text;
-								-webkit-background-clip: text;
-								-webkit-text-fill-color: transparent;
+						}
+						#heart-animate-3{
+							opacity: 0;
+							position: absolute;
+							font-size: 30px;
+							font-weight: bold;
+							background: linear-gradient($secondary-color, $primary-color);
+							background-clip: text;
+							-webkit-background-clip: text;
+							-webkit-text-fill-color: transparent;
+							transition: opacity 0.3s ease-in-out;
+							&:hover{
+								opacity: 1;
 							}
 						}
 					}
@@ -540,17 +555,22 @@
 						right: 0;
 						text-decoration: none;
 						color: black;
-						.far {
+						#heart-visible-4{
 							position: absolute;
 							font-size: 30px;
-							font-weight: 100;
-							&:hover {
-								animation: fill 1s ease-out;
-								font-weight: bold;
-								background: linear-gradient($secondary-color, $primary-color);
-								background-clip: text;
-								-webkit-background-clip: text;
-								-webkit-text-fill-color: transparent;
+						}
+						#heart-animate-4{
+							opacity: 0;
+							position: absolute;
+							font-size: 30px;
+							font-weight: bold;
+							background: linear-gradient($secondary-color, $primary-color);
+							background-clip: text;
+							-webkit-background-clip: text;
+							-webkit-text-fill-color: transparent;
+							transition: opacity 0.3s ease-in-out;
+							&:hover{
+								opacity: 1;
 							}
 						}
 					}
