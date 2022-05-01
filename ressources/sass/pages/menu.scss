@@ -10,11 +10,12 @@
 				margin-left: 15px;
 				font-family: Shrikhand;
 				font-weight: 500;
+				font-size: 25px;
 			}
 			&-heart {
 				position: absolute;
 				margin-right: 60px;
-				margin-top: -60px;
+				margin-top: -50px;
 				z-index: 2;
 				right: 0;
 				text-decoration: none;
@@ -81,24 +82,43 @@
 					margin-top: 25px;
 					line-height: 0.4;
 					&-title {
+						height: auto;
 						font-family: Roboto;
 						font-size: 20px;
 						margin-left: 10px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						padding-top: 5px;
+						padding-bottom: 8px;
+						margin-top: 15px;
+						margin-bottom: 8px;
 					}
 					&-text {
-						display: inline;
+						display: block;
 						font-family: Roboto;
+						height: 35px;
+						width: 75%;
 						font-size: 17px;
+						padding-top: 5px;
+						margin-top: 0;
 						margin-left: 10px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
 					}
 					&-price {
-						display: inline;
+						display: block;
+						background-color: white;
 						position: absolute;
 						right: 25px;
-						bottom: 2px;
+						top: 28px;
+						padding-top: 5px;
 						font-family: Roboto;
 						font-weight: bold;
 						transition: all 0.3s ease-out;
+						width: 35px;
+						height: 35px;
 					}
 					.check{
 						display: flex;
@@ -129,6 +149,12 @@
 					&:hover &-price {
 						right: 5px;
 						padding-right: 75px ;
+					}
+					&:hover &-title {
+						width: 60%;
+					}
+					&:hover &-text {
+						width: 60%;
 					}
 				}
 			}
@@ -175,24 +201,43 @@
 					margin-top: 25px;
 					line-height: 0.4;
 					&-title {
+						height: auto;
 						font-family: Roboto;
 						font-size: 20px;
 						margin-left: 10px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						padding-top: 5px;
+						padding-bottom: 8px;
+						margin-top: 15px;
+						margin-bottom: 8px;
 					}
 					&-text {
-						display: inline;
+						display: block;
 						font-family: Roboto;
+						height: 35px;
+						width: 75%;
 						font-size: 17px;
+						padding-top: 5px;
+						margin-top: 0;
 						margin-left: 10px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
 					}
 					&-price {
-						display: inline;
+						display: block;
+						background-color: white;
 						position: absolute;
 						right: 25px;
-						bottom: 2px;
+						top: 28px;
+						padding-top: 5px;
 						font-family: Roboto;
 						font-weight: bold;
 						transition: all 0.3s ease-out;
+						width: 35px;
+						height: 35px;
 					}
 					.check{
 						display: flex;
@@ -223,6 +268,12 @@
 					&:hover &-price {
 						right: 5px;
 						padding-right: 75px ;
+					}
+					&:hover &-title {
+						width: 60%;
+					}
+					&:hover &-text {
+						width: 60%;
 					}
 				}
 			}
@@ -269,24 +320,43 @@
 					margin-top: 25px;
 					line-height: 0.4;
 					&-title {
+						height: auto;
 						font-family: Roboto;
 						font-size: 20px;
 						margin-left: 10px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						padding-top: 5px;
+						padding-bottom: 8px;
+						margin-top: 15px;
+						margin-bottom: 8px;
 					}
 					&-text {
-						display: inline;
+						display: block;
 						font-family: Roboto;
+						height: 35px;
+						width: 75%;
 						font-size: 17px;
+						padding-top: 5px;
+						margin-top: 0;
 						margin-left: 10px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
 					}
 					&-price {
-						display: inline;
+						display: block;
+						background-color: white;
 						position: absolute;
 						right: 25px;
-						bottom: 2px;
+						top: 28px;
+						padding-top: 5px;
 						font-family: Roboto;
 						font-weight: bold;
 						transition: all 0.3s ease-out;
+						width: 35px;
+						height: 35px;
 					}
 					.check{
 						display: flex;
@@ -317,6 +387,12 @@
 					&:hover &-price {
 						right: 5px;
 						padding-right: 75px ;
+					}
+					&:hover &-title {
+						width: 60%;
+					}
+					&:hover &-text {
+						width: 60%;
 					}
 				}
 			}
